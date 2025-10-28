@@ -1,0 +1,6 @@
+- [x] Implement the App component in src/components/App.js:
+  - Import React, useState, useEffect
+  - Add state for isLoading (true initially) and imageUrl (null initially)
+  - Use useEffect to fetch from https://dog.ceo/api/breeds/image/random, parse JSON, set imageUrl and isLoading
+  - Render: Loading... if isLoading, else img with src and alt
+- [x] Run npm test to verify tests pass
